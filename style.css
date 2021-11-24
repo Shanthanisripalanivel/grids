@@ -1,0 +1,33 @@
+.wrapper 
+{
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows:minmax(200px,auto);
+    grid-gap:1em;
+    display: grid;
+    
+
+}
+#b1{
+    background-color: red;
+    
+}
+#b2{
+    background-color:purple;
+    grid-column: 2/4;
+}
+#b3{
+    background-color: blue;
+    grid-column:1/3;
+}
+#b4{
+    background-color: green;
+    grid-column: 3/4;
+    grid-row:2/4;
+}
+#b5{
+    background-color:red;
+}
+#b6{
+    background-color: yellow;
+}
+   
